@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"app\\\\page.jsx -> html5-qrcode\":{\"id\":\"app\\\\page.jsx -> html5-qrcode\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_html5-qrcode_esm_index_js.js\"]}}"
