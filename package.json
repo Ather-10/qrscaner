@@ -1,16 +1,21 @@
 {
-  "name": "qr-scanner-pro",
+  "name": "scanpro",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview" },
   "dependencies": {
     "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
     "@capacitor/cli": "^6.1.2",
     "@capacitor/core": "^6.1.2",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/share": "^6.0.2",
     "html5-qrcode": "^2.3.8",
-    "next": "14.2.15",
+    "lucide-react": "^0.453.0",
     "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "devDependencies": { "@vitejs/plugin-react": "^4.3.3", "vite": "^5.4.10" }
 }

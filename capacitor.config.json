@@ -1,5 +1,1 @@
-{
-  "appId": "com.qrscanner.pro",
-  "appName": "QR Scanner Pro",
-  "webDir": "out"
-}
+{ "appId": "com.scanpro.app", "appName": "ScanPro", "webDir": "dist" }
